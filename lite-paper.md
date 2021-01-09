@@ -3,6 +3,7 @@ layout: default
 title: Lite Paper
 permalink: /lite-paper/
 tags: lite-paper
+nav_order: 2
 ---
 
 # NFT20 Litepaper
