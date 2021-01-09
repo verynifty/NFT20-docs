@@ -7,7 +7,7 @@ tags: lite-paper
 
 # NFT20 Litepaper
 
-Introduction
+## Introduction
 
 NFT20 is a permissionless p2p protocol to tokenize NFTs and make them tradable on decentralized exchanges such as UniSwap or Sushiswap. Anyone with an NFT can create a new pool or add his NFT to an existing pool and get ERC20 Token derivatives of their NFTs in a permission-less way, those tokens can be transferred and traded on DEXes right away.
 
