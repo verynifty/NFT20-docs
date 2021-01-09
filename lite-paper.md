@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Lite Paper
 permalink: /lite-paper/
 tags: lite-paper
