@@ -83,7 +83,7 @@ We’re friends and have been following and working in the Ethereum space for ov
 
 NFT20 started as a pivot from the VeryNifty Gallery game, the early VeryNifty community was pivotal in the creation of the protocol with their feedback and support.
 
-The max supply of $NFT20 will be 1 million. 50% of the token allocation will be minted and vested over 12-24 months, here’s how they will be allocated:
+The max supply of $NFT20 will be 1 million. 50% of the token allocation will be minted and vested linearly over a period of 12-24 months, here’s how they will be allocated:
 
 1. 20% to team members. (**vested 12m**)
 
