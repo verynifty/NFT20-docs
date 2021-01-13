@@ -3,7 +3,7 @@ layout: default
 title: Tokenomics
 permalink: /tokenomics/
 tags: tokenomics
-has_children: true
+has_children: false
 nav_order: 5
 ---
 

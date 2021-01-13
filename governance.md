@@ -3,7 +3,7 @@ layout: default
 title: Governance
 permalink: /governance/
 tags: governance
-has_children: true
+has_children: false
 nav_order: 4
 ---
 
