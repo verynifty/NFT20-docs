@@ -17,5 +17,7 @@ Creating a pool for your NFT project is really simple and will help your communi
 
 Done! You can now go to your asset page within NFT20 and tokenize any NFTs you or your community.
 
+> Transaction fees may seems high and similar to an Uniswap pool creation as it will create a new contract and ERC20 token but that's expected.
+
 Here is a video demonstrating the process:
 ![Create a pool](/assets/img/create-exchange.gif "Create Pool")
