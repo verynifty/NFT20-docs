@@ -17,7 +17,7 @@ Those tokens have several use cases right away:
 1. If there is an dutch active auction for a higher value NFT, you can bid on the auction with those token and thus exchange some of your lower value NFTs for higher value ones.
 1. You can exchange 100 tokens for any of the NFTs available on the NFT20 pool, thus swapping NFTs for NFTs in a permission-less way.
 
-## What if my NFT i worth more than 100 tokens?
+## What if my NFT is worth more than 100 tokens?
 
 If you believe your NFT is worth more than 100 tokens, you can opt to create an dutch auction and set your own price (you can cancel the auction at any time), the bids and final payment will be in the token of that pool.
 
