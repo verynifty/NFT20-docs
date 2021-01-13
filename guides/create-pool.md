@@ -10,8 +10,6 @@ parent: Guides
 
 Creating a pool for your NFT project is really simple and will help your community achieve liquidity and swaps for all your NFTs in a simple manner.
 
-To add a pool is really simple:
-
 1. Go to [https://nft.20.io/assets](https://nft.20.io/assets).
 1. Click on "ADD ASSET".
 1. Paste in the NFT address, we support ERC1155 and ERC721 standards.
