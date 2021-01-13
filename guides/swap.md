@@ -14,7 +14,7 @@ When you deposit an NFT in an NFT20 pool the contract will create 100 ERC20 toke
 Those tokens have several use cases right away:
 
 1. If there is enough liquidity for those tokens on Uniswap, you can go ahead and sell them for profits.
-1. If there is an dutch active auction for a higher value NFT, you can bid on the auction with those token and thus exchange some of your lower value NFTs for higher value ones.
+1. If a duch auction is active for a higher value NFT, you can bid on the auction with those token and thus exchange some of your lower value NFTs for higher value ones.
 1. You can exchange 100 tokens for any of the NFTs available on the NFT20 pool, thus swapping NFTs for NFTs in a permission-less way.
 
 ## What if my NFT is worth more than 100 tokens?
