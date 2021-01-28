@@ -27,7 +27,9 @@ The guide for adding a pool for your project to NFT20 is [here](https://docs.nft
 
 Once the pool is created, a new contract with the ERC20 token standard wil be created. You can now add some NFTs to get those tokens or just copy the address. and go to [Uniswap and create a pool for it](https://tokenmint.io/blog/how-to-list-your-custom-erc20-token-to-uniswap.html).
 
-## Incentive your users to add liquidity
+Once the pool get a good size, the pool will be incentived through the $muse airgov program.
+
+## Incentive your users to add liquidity (optional)
 
 The next step is for you to create incentive for users to add liquidity and trade the newly created tokenized version of your NFTs. Projects reaching a high liquidity will be incentived to receive our governance token at launch. To incentive LP staking you can use your already made contract or standards like the ones made by:
 * [Wrap LP]() 
