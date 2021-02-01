@@ -10,7 +10,7 @@ nav_order: 2
 
 ## Introduction
 
-NFT20 is a permissionless p2p protocol to tokenize NFTs and make them tradable on decentralized exchanges such as UniSwap or Sushiswap. Anyone with an NFT can create a new pool or add his NFT to an existing pool and get ERC20 Token derivatives of their NFTs in a permission-less way, those tokens can be transferred and traded on DEXes right away.
+NFT20 is a permissionless p2p protocol to tokenize NFTs and make them tradable on decentralized exchanges such as UniSwap or Sushiswap. Anyone with an NFT can create a new pool or add their NFT to an existing pool and get ERC20 Token derivatives of their NFTs in a permission-less way, those tokens can be transferred and traded on DEXes right away.
 
 ## Background
 
@@ -69,7 +69,7 @@ The parameters of the platform will be governed by a DAO managed by the $Muse to
 
 ## Initial Team
 
-NFT20 was developed by [Jules](https://twitter.com/jdourlens) and [Adam](https://twitter.com/surfcoderepeat) with design help from [Carlos Veloso](undefined), the project was bootsrapped without any external investment or presale and creaed under the [VeryNifty](https://verynifty.io) NFT shop.
+NFT20 was developed by [Jules](https://twitter.com/jdourlens) and [Adam](https://twitter.com/surfcoderepeat) with design help from [Carlos Veloso](undefined), the project was bootstrapped without any external investment or presale and created under the [VeryNifty](https://verynifty.io) NFT shop.
 
 We’re friends and have been following and working in the Ethereum space for over 4 years. Our latest project [VeryNifty Gallery](https:/gallery.verynifty.io), a tamagotchi-like game is still the #3 most played Ethereum game on DappRadar has done more than 70K transactions on mainnet.
 
