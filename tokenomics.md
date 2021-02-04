@@ -29,6 +29,8 @@ The parameters of the NFT20 platform will be governed by the DAO managed by the 
 
 Holders of the $MUSE token will also be able to receive a portion of all of the 5% transaction fees collected by the NFT20 dex. When the fees are distributed, you’ll get fees from Doki Doki NFTs, NodeRunners, Chonker, and any other future assets added to the NFT20 dex, in the form of the ERC20 token derivatives for those NFTs. This means holding $MUSE gives you diverse and full exposure to the NFT industry through fees collected and returned in the form of the various NFT20 created ERC20 tokens for those projects. In the long term, $MUSE could be used as a hedge against the NFT industry itself. See the [Lite Paper](https://docs.nft20.io/lite-paper/) for more explanation of the NFT20 dex and the concept of ERC20 token derivatives for NFT projects. 
 
+Details on the mechancism for collection of fees by $MUSE holders will be announced shortly. 
+
 # Supply and Distribution
 
 * **Total: 1 Million**
