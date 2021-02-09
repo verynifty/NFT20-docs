@@ -88,7 +88,7 @@ We also **created a new scheme to receive multiple yield sources from the same L
 
 ## Initial Team
 
-NFT20 was developed by [Jules](https://twitter.com/jdourlens) and [Adam](https://twitter.com/surfcoderepeat) with design help from [Carlos Veloso](undefined), the project was bootstrapped without any external investment or presale and created under the [VeryNifty](https://verynifty.io) NFT shop.
+NFT20 was developed by [Jules](https://twitter.com/jdourlens) and [Adam](https://twitter.com/surfcoderepeat) with design help from Carlos Veloso, the project was bootstrapped without any external investment or presale and created under the [VeryNifty](https://verynifty.io) NFT shop.
 
 We’re friends and have been following and working in the Ethereum space for over 4 years. Our latest project [VeryNifty Gallery](https:/gallery.verynifty.io), a tamagotchi-like game, is still the #3 most played Ethereum game on DappRadar and has done more than 70,000 transactions on mainnet.
 
