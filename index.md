@@ -10,6 +10,8 @@ permalink: /
 
 Welcome to the NFT20 documentation. NFT20 is a permissionless p2p protocol to tokenize NFTs and make them tradable on decentralized exchanges such as UniSwap or Sushiswap.
 
+![very nifty nft20 explaination](https://github.com/verynifty/NFT20-docs/blob/master/assets/img/very_nifty_explain.png?raw=true)
+
 Anyone with an NFT can create a new pool or add his NFT to an existing pool and get ERC20 Token derivatives of their NFTs in a permission-less way, those tokens can be transferred and traded on DEXes
 right away.
 
