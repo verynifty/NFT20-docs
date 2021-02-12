@@ -13,7 +13,7 @@ Welcome to the NFT20 documentation. NFT20 is a permissionless p2p protocol to to
 ![very nifty nft20 explaination](https://github.com/verynifty/NFT20-docs/blob/master/assets/img/very_nifty_explain.png?raw=true)
 
 Anyone with an NFT can create a new pool or add his NFT to an existing pool and get ERC20 Token derivatives of their NFTs in a permission-less way, those tokens can be transferred and traded on DEXes
-right away.
+right away. You can also swap your NFT for anyother NFT of the same pool, no need to tokenize. 
 
 $Muse is the governance token of NFT20 and can be [farmed by providing liquidity to different NFT20 token pairs](https://nft20.io/farm).
 
