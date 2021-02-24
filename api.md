@@ -9,6 +9,10 @@ nav_order: 4
 
 # API
 
+The Official NFT20 API enable anyone to get easily data from our protocol usage. List all pools, recent activity and NFTs that are available from each pools.
+
+The source code of the ETL and API is available on Github: [https://github.com/verynifty/nft20-backend](https://github.com/verynifty/nft20-backend) .
+
 ## Get Pools
 
 Get all pools with their information.
