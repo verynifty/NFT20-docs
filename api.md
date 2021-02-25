@@ -13,6 +13,8 @@ The Official NFT20 API enable anyone to get easily data from our protocol usage.
 
 The source code of the ETL and API is available on Github: [https://github.com/verynifty/nft20-backend](https://github.com/verynifty/nft20-backend) .
 
+If you are building with this API and need custom routes or help, don't hesitate to join us on Discord.
+
 ## Get Pools
 
 Get all pools with their information.
