@@ -9,7 +9,7 @@ nav_order: 2
 
 # Swap your NFTs
 
-{% youtube "https://www.youtube.com/watch?v=Ry4j6WvN1JM" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ry4j6WvN1JM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For every NFT deposited in its corresponding NFT20 pool, the contract will create 100 ERC20 tokens that belong to that NFT project. 95 tokens will go to you and 5 is the DEX fee that gets equally distributed to $MUSE token holders.
 
