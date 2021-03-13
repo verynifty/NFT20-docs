@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Int the news
+title: In the news
 nav_order: 7
 description: "."
 permalink: /in_the_news
@@ -13,7 +13,6 @@ permalink: /in_the_news
 * [Defi Prime interview](https://defiprime.com/nft20)
 * [Crypto Actu (French)](https://cryptoactu.com/plateforme-nft20-dex-jetons-nft/)
 * [Coinpedia](https://coinpedia.org/news/analyst-predicts-nft20s-explosion/)
-* 
 
 
 ### Videos
