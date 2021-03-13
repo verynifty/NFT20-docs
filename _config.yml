@@ -31,6 +31,7 @@ github_username: verynifty
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-youtube
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
