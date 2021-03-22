@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Contracts API
+title: Contracts
 permalink: /contracts/
-tags: contracts
-has_children: false
-nav_order: 5
+has_children: true
+nav_order: 3
 ---
 
 # Interact with our Smart Contracts
