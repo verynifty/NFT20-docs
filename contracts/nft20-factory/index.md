@@ -22,12 +22,12 @@ The currently deployed version is [NFT20FactoryV3]({{ site.baseurl }}{% link con
 
 # View Methods
 
-## nftToToken
+## nftToToken()
 
 ### `mapping(address => address) public nftToToken;`
 {: .no_toc }
 
-Returns the [NFT20Pair]() address for a supplied ERC721/ERC1155 contract address (if one exists).
+Returns the [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}) address for a supplied ERC721/ERC1155 contract address (if one exists).
 
 ### Parameters
 {: .no_toc }
@@ -41,21 +41,33 @@ Returns the [NFT20Pair]() address for a supplied ERC721/ERC1155 contract address
 
 | Type         | Description          
 |:-------------|:------------------
-| address      | An address representing the [NFT20Pair]() instance for this ERC721/ERC1155
+| address      | An address representing the [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}) instance for this ERC721/ERC1155.
+
+
+## logic()
+
+### `address public logic;`
+{: .no_toc }
+
+This method returns the address of the base contract for creating new [NFT20Pairs]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}).
+
+| Type         | Description          
+|:-------------|:------------------
+| address      | Address of the contract used for instantiating a new [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}).
 
 ## fee()
 
 ### `unint256 public fee;`
-{: .no_toc}
+{: .no_toc }
 
-This method returns the value `unint256 fee`, which represents the default fee when trading [NFT20Pairs]().
+This method returns the value `unint256 fee`, which represents the default fee used by [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}).
 
 ### Return values
 {: .no_toc }
 
 | Type         | Description          
 |:-------------|:------------------
-| uint256      | current fee in [NFT20Pair]() tokens.
+| uint256      | current fee in [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}) tokens.
 
 
 ## counter()
@@ -72,4 +84,4 @@ currently tracked by the factory.
 
 | Type         | Description          
 |:-------------|:------------------
-| uint256      | number of [NFT20Pairs]()
+| uint256      | number of [NFT20Pairs]().
