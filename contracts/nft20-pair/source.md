@@ -27,6 +27,17 @@ import "@openzeppelin/contracts/utils/EnumerableSet.sol";
 
 interface IFactory {
     function fee() external view returns (uint256);
+
+    function flashLoansEnabled() external view returns (bool);
+}
+
+interface IFlashLoanReceiver {
+    function executeOperation(
+        uint256[] calldata _ids,
+        uint256[] calldata _amounts,
+        address initiator,
+        bytes calldata params
+    ) external returns (bool);
 }
 
 contract NFT20Pair is ERC20, IERC721Receiver, ERC1155Receiver {
@@ -61,6 +72,14 @@ contract NFT20Pair is ERC20, IERC721Receiver, ERC1155Receiver {
         nftValue = 100 * 10**18;
     }
 
+    modifier flashloansEnabled() {
+        require(
+            IFactory(factory).flashLoansEnabled(),
+            "flashloans not allowed"
+        );
+        _;
+    }
+
     function getInfos()
         public
         view
@@ -74,28 +93,28 @@ contract NFT20Pair is ERC20, IERC721Receiver, ERC1155Receiver {
         _type = nftType;
         _name = name;
         _symbol = symbol;
-        _supply = totalSupply / 100 ether;
+        _supply = totalSupply.div(nftValue);
     }
 
     // withdraw nft and burn tokens
     function withdraw(
         uint256[] calldata _tokenIds,
         uint256[] calldata amounts,
-        address receipient
+        address recipient
     ) external {
         if (nftType == 1155) {
             if (_tokenIds.length == 1) {
                 _burn(msg.sender, nftValue.mul(amounts[0]));
                 _withdraw1155(
                     address(this),
-                    receipient,
+                    recipient,
                     _tokenIds[0],
                     amounts[0]
                 );
             } else {
                 _batchWithdraw1155(
                     address(this),
-                    receipient,
+                    recipient,
                     _tokenIds,
                     amounts
                 );
@@ -103,7 +122,7 @@ contract NFT20Pair is ERC20, IERC721Receiver, ERC1155Receiver {
         } else if (nftType == 721) {
             _burn(msg.sender, nftValue.mul(_tokenIds.length));
             for (uint256 i = 0; i < _tokenIds.length; i++) {
-                _withdraw721(address(this), receipient, _tokenIds[i]);
+                _withdraw721(address(this), recipient, _tokenIds[i]);
             }
         }
 
@@ -304,6 +323,60 @@ contract NFT20Pair is ERC20, IERC721Receiver, ERC1155Receiver {
             result += to_inc;
         }
         return address(result);
+    }
+
+    function flashLoan(
+        uint256[] calldata _ids,
+        uint256[] calldata _amounts,
+        address _operator,
+        bytes calldata _params
+    ) external flashloansEnabled() {
+        require(_ids.length < 80, "To many NFTs");
+
+        if (nftType == 1155) {
+            IERC1155(nftAddress).safeBatchTransferFrom(
+                address(this),
+                _operator,
+                _ids,
+                _amounts,
+                "0x0"
+            );
+        } else {
+            for (uint8 index; index < _ids.length; index++) {
+                IERC721(nftAddress).safeTransferFrom(
+                    address(this),
+                    _operator,
+                    _ids[index]
+                );
+            }
+        }
+        require(
+            IFlashLoanReceiver(_operator).executeOperation(
+                _ids,
+                _amounts,
+                msg.sender,
+                _params
+            ),
+            "Execution Failed"
+        );
+
+        if (nftType == 1155) {
+            IERC1155(nftAddress).safeBatchTransferFrom(
+                _operator,
+                address(this),
+                _ids,
+                _amounts,
+                "INTERNAL"
+            );
+        } else {
+            for (uint8 index; index < _ids.length; index++) {
+                IERC721(nftAddress).transferFrom(
+                    _operator,
+                    address(this),
+                    _ids[index]
+                );
+            }
+        }
     }
 }
 ```
