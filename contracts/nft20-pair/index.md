@@ -13,7 +13,7 @@ has_toc: false
 
 [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/source.md %}) is an ERC20 token contract representing a pool of ERC721/ERC1155 NFT tokens. It allows users to deposit their ERC721/ERC1155 tokens in exchange for corresponding ERC20 tokens, and vice versa. Users may also use this contract to trade their ERC721/ERC1155 tokens for other tokens in the pool.
 
-The currently deployed base ([logic]({{ site.baseurl }}{% link contracts/nft20-factory/index.md %}#logic)) contract can be found at `0x5B8Df3131D65Beb140a2700F06B78F99D0918697` on mainnet Ethereum.
+The currently deployed base ([logic]({{ site.baseurl }}{% link contracts/nft20-factory/index.md %}#logic)) contract can be found at `0xc53d0a52358ff0f0e4dfe93a1f0c84d2b17e68df` on mainnet Ethereum.
 
 When creating new pairs [NFT20Factory]({{ site.baseurl }}{% link contracts/nft20-factory/index.md %}) will instantiate a new instance of this contract (via a [BeaconProxy](https://docs.openzeppelin.com/contracts/3.x/api/proxy#BeaconProxy)) to represent the pair.
 
