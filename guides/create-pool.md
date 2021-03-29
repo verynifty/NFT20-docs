@@ -21,3 +21,7 @@ Done! You can now go to your asset page within NFT20 and tokenize any NFTs you o
 
 Here is a video demonstrating the process:
 ![Create a pool](/assets/img/create-exchange.gif "Create Pool")
+
+# Full video tutorial including Uniswap pool creation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wggo0wdejdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
