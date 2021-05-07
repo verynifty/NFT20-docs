@@ -19,6 +19,10 @@ $Muse is the governance token of NFT20 and can be [farmed by providing liquidity
 
 [Read the Lite Paper]({{ site.baseurl }}{% link lite-paper.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/verynifty/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+## App
+* [Ethereum](https://nft20.io)
+* [Polygon (Matic)](https://polygon.nft20.io)
+
 ## Community
 
 * [Discord](https://discord.gg/mmvEKSN)
