@@ -20,7 +20,7 @@ For example, looking at sales of Crypto Kitties over the last week of 2020, we s
 
 While Crypto Kitties is one of the most popular NFTs, with nearly two million items held by nearly 100,000 addresses, the lack of liquidity for NFTs particularly impacts smaller projects. When combined with the high fees taken by secondary market platforms and their creators, NFT projects can quickly find themselves held back by the liquidity problem in the NFT space. 
 
-The goal of NFT20 then is to give project owners, collectors, and investors a better way to trade and value NFT tokens (ERC725 and ERC1155) by creating ERC20 derivatives of NFT projects using the NFT20 dex. 
+The goal of NFT20 then is to give project owners, collectors, and investors a better way to trade and value NFT tokens (ERC721 and ERC1155) by creating ERC20 derivatives of NFT projects using the NFT20 dex. 
 
 ## How It Works
 
