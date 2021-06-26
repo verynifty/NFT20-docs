@@ -148,3 +148,12 @@ Sample result
 }
 
 ```
+
+You can additionally filter by pool address or NFT address:
+
+```
+https://api.nft20.io/activity?pool=0xe89d4c65db4c859a83ba7f100154fa2d172b60b0
+
+https://api.nft20.io/activity?nft=0x4581649af66bccaee81eebae3ddc0511fe4c5312
+
+```
