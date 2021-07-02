@@ -60,7 +60,7 @@ Deposits multiple ERC721 tokens in exchange for the pair's ERC20 token in one tr
 | Parameter Name     | Type         | Description          
 |:-------------------|:-------------|:------------------
 | _ids               | uint256[]    | An array of tokenIds to deposit.
-| _referral          | address      | Referring address to recieve the [fee]({{ site.baseurl }}{% link contracts/nft20-factory/index.md %}#fee).
+| _referral          | address      | Referring address to recieve 40% of the [fee]({{ site.baseurl }}{% link contracts/nft20-factory/index.md %}#fee).
 
 ## swap721()
 
