@@ -30,6 +30,9 @@ Creating a pool for your NFT project is really simple and will help your communi
 1. On the page of your asset, click on the uniswap link
 2. You'll be guided on how to add liquidity for enabling instant buy/sell of your NFTs on NFT20.
 3. Select the amount of tokens you want to deposit with the amount of ETH. As a reminder, the price of 100 token should be the floor price of your collection
+
+In case your items floor price is 0.05ETH it will mean that 100 tokens will be matched with 0.05 ETH.
+
 4. Once done, contact us so we can update the website
 
 
