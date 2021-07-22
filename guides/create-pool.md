@@ -21,7 +21,7 @@ Creating a pool for your NFT project is really simple and will help your communi
 ## Kickstarting the pool
 
 1. Go to your newly created pool by searching [on the asset page](https://nft20.io/assets).
-2. Click on the upper part of the swap box todeposit the NFTs you want to deposit in the pool.
+2. Click on the upper part of the swap box to deposit the NFTs you want to deposit in the pool.
 3. Once selected you'll need to send a first transaction to approve our contract to move your NFTs
 4. Then send the second transaction that will deposit the NFTs and give you tokens
 
@@ -30,7 +30,7 @@ Creating a pool for your NFT project is really simple and will help your communi
 1. On the page of your asset, click on the uniswap link
 2. You'll be guided on how to add liquidity for enabling instant buy/sell of your NFTs on NFT20.
 3. Select the amount of tokens you want to deposit with the amount of ETH. As a reminder, the price of 100 token should be the floor price of your collection
-4. Once done, contact us so we can udate the website
+4. Once done, contact us so we can update the website
 
 
 
