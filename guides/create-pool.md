@@ -13,10 +13,10 @@ Creating a pool for your NFT project is really simple and will help your communi
 ## Create the pool
 
 1. Go to [https://nft20.io/create](https://nft20.io/create)
-2. Paste the smart contrat address of the NFT collection
+2. Paste the smart contract address of the NFT collection
 3. Select a suitable name for the pool and the token symbol
 4. Launch the transaction
-5. Once your transaction was mined, go to [the asset page](https://nft20.io/assets) and search for newly created pool.
+5. Once your transaction is mined, go to [the asset page](https://nft20.io/assets) and search for newly created pool.
 
 ## Kickstarting the pool
 
@@ -29,7 +29,7 @@ Creating a pool for your NFT project is really simple and will help your communi
 
 1. On the page of your asset, click on the uniswap link
 2. You'll be guided on how to add liquidity for enabling instant buy/sell of your NFTs on NFT20.
-3. Select the amount of tokens you want to deposit with the amount of ETH. As a reminder, the price of 100 token should be the floor price of your collection
+3. Select the amount of tokens you want to deposit with the amount of ETH. As a reminder, the price of 100 tokens should be the floor price of your collection
 
 In case your items floor price is 0.05ETH it will mean that 100 tokens will be matched with 0.05 ETH.
 
