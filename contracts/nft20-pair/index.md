@@ -49,7 +49,7 @@ Burns ERC20 tokens to redeem ERC721/ERC1155 tokens from the pool.
 
 ## multi721Deposit()
 
-### `function multi721Deposit(uint256[] memory _ids, address _referral) public`
+### `function multi721Deposit(uint256[] memory _ids, address _referral) public;`
 {: .no_toc }
 
 Deposits multiple ERC721 tokens in exchange for the pair's ERC20 token in one transaction.
@@ -64,7 +64,7 @@ Deposits multiple ERC721 tokens in exchange for the pair's ERC20 token in one tr
 
 ## swap721()
 
-### `function swap721(uint256 _in, uint256 _out) external`
+### `function swap721(uint256 _in, uint256 _out) external;`
 {: .no_toc }
 
 Swaps an ERC721 token for a different ERC721 token in the pool.
@@ -79,7 +79,7 @@ Swaps an ERC721 token for a different ERC721 token in the pool.
 
 ## swap1155()
 
-### `function swap1155(uint256[] calldata in_ids,uint256[] calldata in_amounts,uint256[] calldata out_ids,uint256[] calldata out_amounts) external`
+### `function swap1155(uint256[] calldata in_ids,uint256[] calldata in_amounts,uint256[] calldata out_ids,uint256[] calldata out_amounts) external;`
 {: .no_toc }
 
 Swaps ERC1155 token(s) for different ERC115 token(s) in the pool.
