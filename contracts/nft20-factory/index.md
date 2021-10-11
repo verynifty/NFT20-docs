@@ -57,7 +57,7 @@ This method returns the address of the base contract for creating new [NFT20Pair
 
 ## fee()
 
-### `unint256 public fee;`
+### `uint256 public fee;`
 {: .no_toc }
 
 This method returns the value `unint256 fee`, which represents the default fee used by [NFT20Pair]({{ site.baseurl }}{% link contracts/nft20-pair/index.md %}).
@@ -72,7 +72,7 @@ This method returns the value `unint256 fee`, which represents the default fee u
 
 ## counter()
 
-### `unint256 public counter;`
+### `uint256 public counter;`
 {: .no_toc }
 
 
