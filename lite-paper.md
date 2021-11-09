@@ -52,7 +52,7 @@ In this section we’ll describe how various actors of the NFT ecosystem can mak
 
 The parameters of the platform will be governed by a DAO managed by the $MUSE token holders. Here is what qualifying $MUSE holders will be able to decide:
 
-1. Fees for the NFT20 dex that will be distributed to $MUSE holders. 
+1. Fees for the NFT20 dex that will be distributed to $MUSE stakers. 
 
 2. Requirements for project approval for yield farming.
 
@@ -64,11 +64,9 @@ The parameters of the platform will be governed by a DAO managed by the $MUSE to
 
 ## What is the Utility of the $MUSE Token?
 
-The $MUSE token's main utility is serving as the governance token for the NFT20 dex. 
+The $MUSE token's main utility is serving as the governance token for Muse Labs. 
 
-However, holders of the $MUSE token will also be able to receive a portion of all of the 5% transaction fees collected by the NFT20 dex. When the fees are distributed, you’ll get fees from Doki Doki NFTs, NodeRunners, Chonker, and any other future assets added to the NFT20 dex, in the form of the ERC20 token derivatives for those NFTs. This means holding $MUSE gives you diverse and full exposure to the NFT industry through fees collected and returned in the form of the various NFT20 created ERC20 tokens for those projects. In the long term, $MUSE could be used as a hedge against the NFT industry itself. 
-
-Details on the mechanicism for collection of fees by token holders will be announced later. 
+Muse stakers will also receive an equal portion of all the fees collected by the dex. Whenever there is a NFT to NFT swap on NFT20 the fees will be sold for ETH to buy $MUSE and sent to stakers. The fee selling is rotated from pool to pool depending on liquidity and amount of fees held by the protocol. Only 10% of the fees owned by the protocol will be sold in a single transaction to prevent excessive selling before the market can react and rebalance price floors. 
 
 ## $MUSE Governance Token Distribution
 
